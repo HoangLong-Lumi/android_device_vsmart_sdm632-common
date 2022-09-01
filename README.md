@@ -1,0 +1,1 @@
+# android_device_vsmart_sm6150-common

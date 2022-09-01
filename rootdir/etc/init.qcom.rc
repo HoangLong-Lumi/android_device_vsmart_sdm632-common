@@ -1,0 +1,4 @@
+import /init.target.rc
+
+on init
+    chown system system /sys/class/leds/mx-led/blink
