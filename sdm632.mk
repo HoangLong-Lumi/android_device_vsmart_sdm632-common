@@ -120,6 +120,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.qcom.rc
 
+# IPACM
+PRODUCT_PACKAGES += \
+    ipacm \
+    IPACM_cfg.xml \
+    libipanat \
+    liboffloadhal
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.msm8953
