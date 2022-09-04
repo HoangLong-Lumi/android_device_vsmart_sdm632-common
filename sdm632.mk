@@ -53,29 +53,29 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-	android.hardware.audio@6.0 \
-	android.hardware.audio.common@6.0 \
-	android.hardware.audio.common@6.0-util \
-	android.hardware.audio@6.0-impl \
-	android.hardware.audio.effect@6.0 \
-	android.hardware.audio.effect@6.0-impl \
-	android.hardware.audio.service \
-	android.hardware.soundtrigger@2.1-impl
+    android.hardware.audio@6.0 \
+    android.hardware.audio.common@6.0 \
+    android.hardware.audio.common@6.0-util \
+    android.hardware.audio@6.0-impl \
+    android.hardware.audio.effect@6.0 \
+    android.hardware.audio.effect@6.0-impl \
+    android.hardware.audio.service \
+    android.hardware.soundtrigger@2.1-impl
 
 PRODUCT_PACKAGES += \
-	audio.a2dp.default \
-	audio.primary.msm8953 \
-	audio.r_submix.default \
-	audio.usb.default
+    audio.a2dp.default \
+    audio.primary.msm8953 \
+    audio.r_submix.default \
+    audio.usb.default
 
 PRODUCT_PACKAGES += \
-	libaudio-resampler \
-	libautohal \
-	libqcompostprocbundle \
-	libqcomvisualizer \
-	libqcomvoiceprocessing \
-	libvolumelistener \
-	tinymix
+    libaudio-resampler \
+    libautohal \
+    libqcompostprocbundle \
+    libqcomvisualizer \
+    libqcomvoiceprocessing \
+    libvolumelistener \
+    tinymix
 
 # Bluetooth
 PRODUCT_PACKAGES += \
@@ -97,19 +97,12 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-	audio.bluetooth.default \
-	android.hardware.bluetooth.audio@2.0-impl \
-	android.hardware.bluetooth@1.0 \
-	vendor.qti.hardware.bluetooth_audio@2.0 \
-	vendor.qti.hardware.bluetooth_audio@2.1.vendor \
-	vendor.qti.hardware.btconfigstore@1.0.vendor
-
-# Display
-PRODUCT_PACKAGES += \
-    libdisplayconfig \
-    libqdMetaData.system \
-    libvulkan \
-    vendor.display.config@1.0
+    audio.bluetooth.default \
+    android.hardware.bluetooth.audio@2.0-impl \
+    android.hardware.bluetooth@1.0 \
+    vendor.qti.hardware.bluetooth_audio@2.0 \
+    vendor.qti.hardware.bluetooth_audio@2.1.vendor \
+    vendor.qti.hardware.btconfigstore@1.0.vendor
 
 # Health
 PRODUCT_PACKAGES += \
