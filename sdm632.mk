@@ -111,6 +111,11 @@ PRODUCT_PACKAGES += \
     libvulkan \
     vendor.display.config@1.0
 
+# Health
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.1-impl \
+    android.hardware.health@2.1-service
+
 # Init
 PRODUCT_PACKAGES += \
     init.qcom.rc
