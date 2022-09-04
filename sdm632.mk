@@ -95,6 +95,11 @@ PRODUCT_PACKAGES += \
     libvulkan \
     libtinyxml
 
+# Health
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.1-impl \
+    android.hardware.health@2.1-service
+
 # Init
 PRODUCT_PACKAGES += \
     init.qcom.rc
