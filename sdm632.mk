@@ -119,6 +119,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
+# QMI
+PRODUCT_PACKAGES += \
+    libjson \
+    libqti_vndfwk_detect \
+    libqti_vndfwk_detect.vendor \
+    libvndfwk_detect_jni.qti \
+    libvndfwk_detect_jni.qti.vendor
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext
