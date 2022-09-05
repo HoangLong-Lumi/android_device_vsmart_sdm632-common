@@ -20,10 +20,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     AntHalService
 
-# Atrace
-PRODUCT_PACKAGES += \
-    android.hardware.atrace@1.0-service
-
 # Audio
 PRODUCT_PACKAGES += \
 	android.hardware.audio@6.0 \
@@ -70,10 +66,30 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
+    android.hardware.graphics.allocator@2.0-impl:64 \
+    android.hardware.graphics.allocator@2.0-service \
+    android.hardware.graphics.composer@2.1-service \
+    android.hardware.graphics.mapper@2.0-impl-2.1 \
+    android.hardware.memtrack@1.0-impl \
+    android.hardware.memtrack@1.0-service
+
+PRODUCT_PACKAGES += \
+    vendor.display.config@2.0 \
+    vendor.display.config@2.0.vendor
+
+PRODUCT_PACKAGES += \
+    gralloc.msm8953 \
+    hwcomposer.msm8953 \
+    memtrack.msm8953
+
+PRODUCT_PACKAGES += \
     libdisplayconfig \
+    libdisplayconfig.qti \
+    libdisplayconfig.qti.vendor \
+    libqdMetaData \
     libqdMetaData.system \
     libvulkan \
-    vendor.display.config@1.0
+    libtinyxml
 
 # Init
 PRODUCT_PACKAGES += \
