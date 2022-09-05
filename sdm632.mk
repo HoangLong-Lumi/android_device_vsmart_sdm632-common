@@ -166,6 +166,19 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl \
     android.hardware.vibrator@1.0-service
 
+# WiFi
+PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0-service \
+    hostapd \
+    libwpa_client \
+	libqsap_sdk \
+    libwifi-hal-ctrl \
+    libwifi-hal-qcom \
+    vendor.qti.hardware.wifi.hostapd@1.2.vendor \
+    vendor.qti.hardware.wifi.supplicant@2.2.vendor \
+    wpa_supplicant \
+    wpa_supplicant.conf
+
 # VNDK-SP
 PRODUCT_PACKAGES += \
     vndk-sp
